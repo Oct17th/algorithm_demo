@@ -22,7 +22,7 @@ public class Test {
         }
 //        Integer[] list = new Integer[]{77, 75, 52, 32, 21, 8, 12};
 //        list = new Integer[]{7, 5, 5, 28, 757, 3, 45};
-        Sort bs = new TwoWaySelectSort();//选择用哪种方式排序
+        Sort bs = new BinaryInsertSort();//选择用哪种方式排序
         bs.show(list);
         bs.sort(list);
         bs.showCount();
